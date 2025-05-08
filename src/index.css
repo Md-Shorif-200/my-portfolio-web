@@ -1,0 +1,60 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/* tailwind + daisy ui */
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+/* common section start */
+
+/* #1E1F24 */
+/* https://shthemes.net/demosd/thames/wp-content/uploads/2024/08/shape4.png */
+/* https://shthemes.net/demosd/thames/wp-content/uploads/2024/08/Shape3.png */
+/* https://shthemes.net/demosd/thames/wp-content/uploads/2024/08/shape2.png */
+/* https://shthemes.net/demosd/thames/wp-content/uploads/2024/08/shape1.png */
+/* class="hero-shape hero-shape1 position-absolute d-none d-lg-inline-block" */
+/* https://shthemes.net/demosd/thames/wp-content/uploads/2024/08/person.png */
+
+*{
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.primary_color {
+     @apply text-[#80DB66]
+}
+
+.secondary_color {
+    @apply text-[#26272E]
+}
+
+
+
+/* .dkfj{
+    color:  #ffffff15;
+} */
+
+
+
+
+
+
+
+/* common section ends */
+
+
+/* navbar */
+
+.navbar li a {
+      font-size: 18px;
+      margin-left: 20px;
+}
+/* .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1);
+    background-color: #25262f;
+} */
