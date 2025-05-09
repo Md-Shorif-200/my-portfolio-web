@@ -29,11 +29,11 @@ const Navbar = () => {
 
     return (
 
-          <div className={`navbar fixed top-1 w-full z-20 transition-all duration-300 text-white  capitalize   px-2 sm:px-6 md:px-16
+          <div className={`navbar fixed top-0 w-full z-20 transition-all duration-300 text-white  capitalize   px-2 sm:px-6 md:px-8 lg:px-16
           
           ${scrolld  ? 
 
-          'sticky bg-[#25262f] top-0 ' 
+          ' bg-[#25262f]  ' 
           :
            ''
             }`}>
@@ -52,14 +52,15 @@ const Navbar = () => {
           </div>
           <a className="btn btn-ghost text-xl  primary_color">SHORIF  </a>
         </div>
-        <div className="navbar-end  gap-x-16">
+        <div className="navbar-center  gap-x-16">
           <ul className="menu menu-horizontal px-1 hidden lg:flex">
               {links}
           </ul>
-          <a className="btn">Button</a>
         </div>
-        {/* <div className="navbar-end">
-        </div> */}
+        <div className="navbar-end">
+          <a className="btn">Button</a>
+
+        </div>
       </div>
 
     );

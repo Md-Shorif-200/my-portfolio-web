@@ -19,8 +19,14 @@
 
 *{
     font-family: "Outfit", sans-serif;
+
     
 }
+
+html {
+    overflow-y: scroll;
+  }
+  
 
 .primary_color {
      @apply text-[#80DB66]
@@ -28,6 +34,10 @@
 
 .secondary_color {
     @apply text-[#26272E]
+}
+
+.primary_btn {
+     @apply btn bg-[#80DB66] border-0  uppercase
 }
 
 
