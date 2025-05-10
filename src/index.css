@@ -68,3 +68,24 @@ html {
     box-shadow: 0 8px 4px -7px rgba(115, 115, 115, 0.1);
     background-color: #25262f;
 } */
+
+
+/* featured  */
+.featured_cards .card {
+     padding: 30px;
+     background-color: #26272E;
+}
+
+.featured_cards .card h3{
+font-size: 22px;
+font-weight: 500;     
+text-transform: capitalize;
+margin: 15px 0;
+
+}
+
+.featured_cards .card p {
+     text-transform: capitalize;
+     color:  gray;
+     font-size: 17px;
+}

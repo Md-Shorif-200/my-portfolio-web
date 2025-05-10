@@ -9,6 +9,7 @@ import {
 import ErrorPage from './Pages/ErrorPage.jsx';
 import MainLayout from './MainLayout/MainLayout.jsx';
 import Home from './Pages/Home/Home.jsx';
+import AosInitializer from './Component/AosInitializer.jsx';
 
 
 
@@ -30,5 +31,8 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+
+    {/* initialize aos animation */}
+      <AosInitializer></AosInitializer>
   </StrictMode>,
 )

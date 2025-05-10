@@ -12,13 +12,13 @@ import { motion } from 'framer-motion'
 
 const Banner = () => {
     return (
-           <div className="w-full min-h-screen  pl-6 sm:pl-10 lg:pl-16 pr-2 sm:pr-4 md:pr-8 mb-14
+           <div className="w-full min-h-screen  pl-6 sm:pl-10 lg:pl-16 pr-2 sm:pr-4 md:pr-8 
         
            text-white" style={{backgroundImage : `url(${bg_img_1})`,backgroundRepeat: 'no-repeat',backgroundPosition: 'center',backgroundSize : "cover"}}
            >
-                    <div className='w-full  min-h-screen  md:flex justify-between items-center pt-16'>
+                    <div className='w-full  min-h-screen  md:flex justify-between items-center pt-16' >
                         
-            <div className="bg_cnt w-full md:w-[40%] text-center md:text-start">
+            <div className="bg_cnt w-full md:w-[40%] text-center md:text-start" data-aos='fade-right'>
                   <h3 className='text-lg lg:text-xl uppercase primary_color font-semibold mt-10 tracking-[10px]'>hellow  i'm </h3>
                   <h1 className='text-5xl sm:text-6xl md:text-7xl text-white font-bold my-6 md:my-8'>  Shorif <br /> Uddin</h1>
                   <h2 className='text-xl lg:text-2xl capitalize mb-6 font-semibold'>a junior <span className='primary_color  text-2xl lg:text-4xl'>
