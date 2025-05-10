@@ -7,7 +7,7 @@ const Home = () => {
         <div>
 
             <Banner></Banner>
-            <FeaturedSection></FeaturedSection>
+            {/* <FeaturedSection></FeaturedSection> */}
          
         </div>
     );

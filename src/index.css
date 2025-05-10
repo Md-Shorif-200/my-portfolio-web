@@ -28,16 +28,40 @@ html {
   }
   
 
+  /* @apply text-[#80DB66] */
 .primary_color {
-     @apply text-[#80DB66]
+     @apply text-[#FF014F]
 }
 
+/* @apply text-[#26272E] */
 .secondary_color {
-    @apply text-[#26272E]
+    @apply text-[#212428]
+    
 }
+
+.accent_color {
+    @apply text-[#C4CFDE]
+}
+
+.dark_color {
+    @apply text-[#1F2125]
+}
+
+/* background-colo */
+.primary_bg_color {
+    @apply bg-[#212428]
+}
+
+.secondary_bg_color {
+    @apply bg-[#1F2125]
+}
+
 
 .primary_btn {
-     @apply btn bg-[#80DB66] border-0  uppercase
+     @apply btn bg-[#FF014F] border-0  uppercase
+}
+.secondary_btn {
+    @apply btn text-xs  sm:text-base border-1 border-[#FF014F] bg-transparent text-white uppercase hover:bg-[#FF014F] transition-all 
 }
 
 
@@ -69,7 +93,16 @@ html {
     background-color: #25262f;
 } */
 
+/* banner  */
 
+.banner_img .shape {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.301) 0px 0 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.banner .social_icons ul li {
+    @apply p-4 flex justify-center items-center rounded-sm bg-[#1F2125]  text-2xl text-[#C4CFDE]   hover:bg-[#FF014F] transition-all
+}
 /* featured  */
 .featured_cards .card {
      padding: 30px;
