@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import bg_img_1 from '../../assets/images/bg-img/pexels-leonardo-vazquez-1427877-3591570.jpg'
+import bg_img_1 from '../../assets/images/bg-img/befunky_2025-4-0_15-13-12-removebg-preview.png'
 import bg_img_2 from '../../assets/images/bg-img/IMG_1203-removebg-preview.png'
 import shape_1 from '../../assets/images/bg-img/shape1.png'
 import shape_2 from '../../assets/images/bg-img/shape2.png'
@@ -52,8 +52,8 @@ const Banner = () => {
                              
                        </div>
                        <div className="banner_img w-full md:w-[40%]  relative">
-                              <div className="shape w-full sm:w-[90%] h-[70%]   secondary_bg_color absolute bottom-0 sm:right-0 z-10"></div>
-                                <img src={bg_img_2} alt="" className='z-20 relative' />
+                              <div className="shape w-full sm:w-[90%] h-[70%]   dark_color absolute bottom-0 sm:right-0 z-10"></div>
+                                <img src={bg_img_1} alt="" className='z-20 relative' />
                        </div>
               </div>
          )

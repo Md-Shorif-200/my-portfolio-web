@@ -29,7 +29,7 @@ const Navbar = () => {
 
     return (
 
-          <div className={`navbar fixed top-0 w-full z-30 transition-all duration-300 text-white  capitalize   px-2 sm:px-6 md:px-8 lg:px-16
+          <div className={`navbar fixed top-0 w-full z-50 transition-all duration-300 text-white  capitalize   px-2 sm:px-6 md:px-8 lg:px-16
           
           ${scrolld  ? 
 

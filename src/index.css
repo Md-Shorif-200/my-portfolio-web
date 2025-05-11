@@ -94,8 +94,8 @@ html {
 } */
 
 /* banner  */
-
-.banner_img .shape {
+ .shape {
+    background-color: #1F2125;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.301) 0px 0 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
@@ -104,9 +104,14 @@ html {
     @apply p-4 flex justify-center items-center rounded-sm bg-[#1F2125]  text-2xl text-[#C4CFDE]   hover:bg-[#FF014F] transition-all
 }
 /* featured  */
+ .featured {
+    @apply bg-[#212428]
+ }
 .featured_cards .card {
      padding: 30px;
-     background-color: #26272E;
+     background-color: #1F2125;
+         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.158) 0px 0 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .featured_cards .card h3{
