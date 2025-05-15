@@ -10,6 +10,7 @@ import ErrorPage from './Pages/ErrorPage.jsx';
 import MainLayout from './MainLayout/MainLayout.jsx';
 import Home from './Pages/Home/Home.jsx';
 import AosInitializer from './Component/AosInitializer.jsx';
+import ProjectDetails from './Pages/Home/ProjectDetails.jsx';
 
 
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
        {
         path : '/',
         element : <Home></Home>
+       },
+       {
+        path : 'project-details/:id',
+        element : <ProjectDetails></ProjectDetails>
        }
     ]
    }

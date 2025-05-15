@@ -55,6 +55,7 @@ export default function Skill() {
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.05 }}
+
                 className=" frontEnd_skills flex flex-col items-center justify-center p-4 border border-blue-100 bg-gradient-to-br from-[#1f2937] to-[#111827] rounded-xl  transition-all"
               >
                 <div className="text-3xl mb-2">{skill.icon}</div>
@@ -72,7 +73,7 @@ export default function Skill() {
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.03 }}
-                className=" backend_skills flex flex-col items-center justify-center p-4 border rounded-xl  bg-gradient-to-br from-[#1f2937] to-[#111827]   transition-all"
+                className=" backend_skills flex flex-col items-center justify-center p-4 border rounded-xl  bg-gradient-to-br from-[#1f2937] to-[#111827]   transition-all" 
               >
                 <div className="text-2xl mb-2">{skill.icon}</div>
                 <p className="text-base text-gray-100">{skill.name}</p>
