@@ -12,10 +12,10 @@ const ContactForm = () => {
   };
 
   return (
-      <div className="secondary_bg_color">
+      <div className="secondary_bg_color" id="contact">
           <h1 className="text-xl sm:text-2xl md:text-4xl font-semibold py-10 text-center capitalize text-[#FF014F]">have anything in mind ? </h1>
 
-           <div className="  text-white min-h-screen p-6 flex flex-col md:flex-row gap-10">
+           <div className="  text-white  p-6 flex flex-col md:flex-row gap-10">
       {/* Left Profile Section */}
       <div className="contact_info w-full md:w-[40%]  p-6 rounded-xl shadow-lg"
         data-aos="fade-right"
@@ -93,6 +93,7 @@ const ContactForm = () => {
         </button>
       </form>
     </div>
+           
       </div>
   );
 };

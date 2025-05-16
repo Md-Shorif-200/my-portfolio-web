@@ -19,7 +19,7 @@
 
 *{
     font-family: "Outfit", sans-serif;
-
+        /* outline: 1px solid red; */
     
 }
 
@@ -101,7 +101,7 @@ html {
 
 }
 
-.banner .social_icons ul li {
+ .social_icons ul li {
     @apply p-4 flex justify-center items-center rounded-sm bg-[#1F2125]  text-2xl text-[#C4CFDE]   hover:bg-[#FF014F] transition-all
 }
 /* featured  */

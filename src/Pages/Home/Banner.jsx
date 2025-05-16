@@ -12,7 +12,7 @@ import { motion } from 'framer-motion'
 
 const Banner = () => {
          return (
-              <div className=' banner w-full min-h-screen px-2 sm:px-6 md:px-10 lg:px-16 pt-24 primary_bg_color  flex flex-col md:flex-row justify-between items-center gap-x-6 '>
+              <div className=' banner w-full h-[650px] px-2 sm:px-6 md:px-10 lg:px-16 pt-24 primary_bg_color  flex flex-col md:flex-row justify-between items-center gap-x-6 '>
                        <div className="banner_cnt w-full md:w-[60%]" data-aos='fade-right'>
                               <h3 className='text-xs sm:text-sm md:text-base accent_color uppercase tracking-[10px]'>hellow i'am </h3>
                               <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl capitalize font-bold text-white my-4'>md <span className='primary_color'>shorif uddin</span> </h1>

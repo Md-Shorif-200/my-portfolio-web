@@ -4,7 +4,7 @@ import img from '../../assets/images/bg-img/IMG_1203-removebg-preview.png'
 
 const About = () => {
     return (
-        <div className='secondary_bg_color  lg:grid items-end grid-cols-2 gap-x-6 px-2 sm:px-6 md:px-8 lg:px-16 py-20'>
+        <div className='secondary_bg_color  lg:grid items-end grid-cols-2 gap-x-6 px-2 sm:px-6 md:px-8 lg:px-16 py-20' id='about'>
 
              <div className="about_img w-full   relative flex justify-center" >
                                          <div className="shape w-[80%] mx-autom sm:mx-0 sm:w-[90%] md:w-[80%] lg:w-[75%] h-[70%]    absolute bottom-0 right-10 z-10" data-aos="fade-right"></div>

@@ -85,7 +85,7 @@ const ProjectDetails = () => {
 
                 {/* Project Details */}
 
-                <div className="flex gap-x-6">
+                <div className="md:flex gap-x-6">
             <h4 className="font-semibold primary_color dark:text-white text-lg">Technologies Used:</h4>
             <p className="text-sm accent_color dark:text-gray-400 mt-1">
               {myProject.technologies.join(" | ")}

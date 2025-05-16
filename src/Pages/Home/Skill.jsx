@@ -50,7 +50,7 @@ export default function Skill() {
         {/* Frontend Skills */}
         <div className="mb-10">
           <h3 className="text-2xl font-semibold mb-5 text-[#FF014F]/95">Frontend Skills</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-5 gap-6">
             {frontendSkills.map((skill, index) => (
               <motion.div
                 key={index}
