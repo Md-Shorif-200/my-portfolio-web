@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { FaArrowLeft, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import Loading from "../../Component/Loading";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -34,11 +35,7 @@ const ProjectDetails = () => {
   }
 
   if (!myProject) {
-    return (
-      <div className="text-center text-gray-500 mt-10">
-        <p>Loading project details...</p>
-      </div>
-    );
+    return <Loading></Loading>
   }
 
   return (

@@ -102,7 +102,7 @@ html {
 }
 
  .social_icons ul li {
-    @apply p-4 flex justify-center items-center rounded-sm bg-[#1F2125]  text-2xl text-[#C4CFDE]   hover:bg-[#FF014F] transition-all
+    @apply p-4 flex justify-center items-center rounded-sm bg-[#1F2125]  text-2xl text-[#C4CFDE]   hover:bg-[#FF014F] transition-all shadow-xl
 }
 /* featured  */
  .featured {

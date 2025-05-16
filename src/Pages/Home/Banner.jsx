@@ -33,7 +33,8 @@ const Banner = () => {
                             </h2>
 
                               <div className="cv">
-                                    <button className="secondary_btn mt-8">download cv</button>
+                                    <a href='/public/My Professional CV Resume (1).pdf'   target="_blank"
+  rel="noopener noreferrer" className="secondary_btn mt-8 tracking-[4px]">my resume</a>
                               </div>
 
                               <div className="social_links">
@@ -41,9 +42,11 @@ const Banner = () => {
                                  
                                  <div className="social_icons">
                                      <ul className='flex gap-x-3 sm:gap-x-4 md:gap-x-6'>
-                                          <li className=''><a href="" className=' '>    <FaFacebook></FaFacebook>  </a></li>
-                                          <li className=''><a href="" className=' '>   <FaLinkedin></FaLinkedin>  </a></li>
-                                          <li className=''><a href="" className=' '>  <FaGithub></FaGithub>   </a></li>
+                                          <li className=''><a href="https://www.facebook.com/share/1FjY1nNsBU/" target='_blank' className=' '>    <FaFacebook></FaFacebook>  </a></li>
+                                          <li className=''><a href="https://www.linkedin.com/in/md-shorif-375533275/
+
+" target='_blank' className=' '>   <FaLinkedin></FaLinkedin>  </a></li>
+                                          <li className=''><a href="https://github.com/Md-Shorif-200" target='_blank' className=' '>  <FaGithub></FaGithub>   </a></li>
                                           <li className=''><a href="" className=' '>     <FaInstagram></FaInstagram> </a></li>
                                      </ul>
                                  </div>
