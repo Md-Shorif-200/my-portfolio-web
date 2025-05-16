@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "ECADEMIX",
+    "description": "A full-featured MERN Stack education website with courses, login, admin panel and more.",
+    "fullDescription": "ECADEMIX is a comprehensive online education platform built using the MERN stack. It features user authentication, instructor and student dashboards, a powerful admin panel, course management, enrollment system, payment integration, wishlist, and secure APIs with JWT. The UI is built with Tailwind CSS, providing a clean and responsive design.",
+    "challengesFaced": "Managing different user roles (admin, student, instructor) and syncing course data securely between front-end and back-end was challenging. Also, integrating payment systems with role-based route protection required careful handling.",
+    "futurePlan": "Plan to add real-time chat between students and instructors, course reviews, certificate generation, and a mobile app version.",
+    "image": "https://i.ibb.co/b56NghqJ/Capture.png",
+    "technologies": ["React", "Node.js", "MongoDB", "JWT", "Tailwind CSS"],
+    "liveLink": "https://academix-e460f.web.app/",
+    "githubLink": "https://github.com/Md-Shorif-200/Academix-client"
+  },
+  {
+    "id": 2,
+    "title": "Marathon Pro",
+    "description": "A dynamic marathon management system with coach registration, runner dashboard, and results.",
+    "fullDescription": "Marathon Pro is a professional marathon management web application. It allows event organizers to create marathons, register coaches, track runners, and display real-time results. It includes runner dashboards, coach details, and admin features. Built using React, Express, MongoDB, and animated with Framer Motion, it offers a modern and interactive experience.",
+    "challengesFaced": "Handling conditional rendering based on marathon status (upcoming, ongoing, ended), managing live data updates and route protection logic were complex. Also, ensuring performance with larger data sets was tricky.",
+    "futurePlan": "Planning to integrate live GPS tracking for runners, email notifications, and automated leaderboard updates.",
+    "image": "https://i.ibb.co/HpkzWsgQ/Capture-2.png",
+    "technologies": ["React", "Express", "MongoDB", "Framer Motion"],
+    "liveLink": "https://go-marathon-21c56.web.app/",
+    "githubLink": "https://github.com/Md-Shorif-200/go-marathon-client"
+  },
+  {
+    "id": 3,
+    "title": "DreamArc",
+    "description": "Crowdfunding platform for creative ideas and personal causes, with secure donation system.",
+    "fullDescription": "DreamArc is a platform designed to help individuals and startups raise funds for their creative ideas, personal causes, or social needs. It includes campaign creation, image uploads, secure donation system, deadline handling, and a testimonials section. Built with React and Firebase, it delivers a seamless and reliable experience for donors and campaign creators.",
+    "challengesFaced": "Ensuring secure and valid donations, preventing duplicate entries, and handling deadline-based campaign visibility were difficult. Firebase rules also needed fine-tuning for security.",
+    "futurePlan": "Add mobile responsiveness enhancements, multi-language support, donation analytics, and integration with PayPal.",
+    "image": "https://i.ibb.co/R4YCYPF0/Capture.png",
+    "technologies": ["React", "Firebase", "Tailwind CSS"],
+    "liveLink": "https://dreamarc.vercel.app",
+    "githubLink": "https://github.com/yourusername/dreamarc"
+  }
+]

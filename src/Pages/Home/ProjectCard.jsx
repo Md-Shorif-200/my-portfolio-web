@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
               href={project.liveLink}
               target="_blank"
               rel="noopener noreferrer"
-              className=" bg-[#FF014F] text-white px-3 py-2 text-sm rounded hover:bg-indigo-700 transition"
+              className=" bg-[#FF014F] text-white px-3 py-2 text-sm rounded hover:bg-red-700 transition"
             >
               View Live <FaExternalLinkAlt className="inline ml-1" />
             </a>
@@ -43,7 +43,7 @@ const ProjectCard = ({ project }) => {
             href={project.githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#FF014F] text-white px-4 py-2 text-sm rounded hover:bg-blue-700 transition"
+            className="bg-[#333] hover:bg-black text-white px-5 py-2 rounded flex items-center"
           >
             View GitHub Repo <FaGithub className="inline ml-1" />
           </a>
